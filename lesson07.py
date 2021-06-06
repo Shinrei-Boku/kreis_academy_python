@@ -31,7 +31,8 @@ class KreisPerson(Person):
         print("所属は{}".format(self.__department))
 
 
-kon = KreisPerson("kondo","20")
-kon.myname()
-kon.myage()
-kon.department()
+if __name__ == "__main__":
+    kon = KreisPerson("kondo","20")
+    kon.myname()
+    kon.myage()
+    kon.department()
