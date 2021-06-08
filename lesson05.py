@@ -10,9 +10,9 @@ class Person(object):
     def age(self):
         return self._age
 
-    #@age.setter
-    #def age(self,age):
-    #    self._age = age
+    @age.setter
+    def age(self,age):
+        self._age = age
 
     def myname(self):
         print("my name is {}".format(self.name))
@@ -28,6 +28,9 @@ if __name__ == "__main__":
     person_kon.myname()
     person_kon.myage()
     print(person_kon.age)
-
+    person_kon.age()
     #person_kon.age = 30
     #person_kon.myage()
+    person_kon.age(30)
+
+    person_kon.name

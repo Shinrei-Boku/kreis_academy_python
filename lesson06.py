@@ -20,7 +20,7 @@ if __name__ == "__main__":
     person_kon.myname()
     person_kon.myage()
 
-    person_kon.__age == 30
+    #person_kon.__age == 30
     print(person_kon.__age)
 
     person_kon.myage()

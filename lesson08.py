@@ -10,9 +10,9 @@ c.add_word('add 2')
 
 print(c.words)
 
-# cc = T()
-# cc.add_word('add 11')
-# cc.add_word('add 22')
-#
-# print(cc.words)
+cc = T()
+cc.add_word('add 11')
+cc.add_word('add 22')
+
+print(cc.words)
 

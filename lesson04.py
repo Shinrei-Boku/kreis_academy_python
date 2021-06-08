@@ -11,9 +11,12 @@ class Employees(Person):
     def mynumber(self):
         print("社員番号は {}　です。".format(self.number))
 
+    def myname(self):
+        print("私は社員です。名前は{}です".format(self.name))
+
 #if __name__ == "__main__":
 employees_kon = Employees("kondo",20,"001")
 employees_kon.myname()
-employees_kon.myage()
-#employees_kon.empno("001")
-employees_kon.mynumber()
+
+person_kon =Person("kondo",20)
+person_kon.myname()
