@@ -15,7 +15,4 @@ print(now.strftime('%y/%m/%d_%H%M%S%f'))
 # if os.path.exists(file_name):
 #     shutil.copyfile(file_name,"{}.{}".format(
 #         file_name, now.strftime('%Y_%m_%d_%H_%M_%S')
-
-
-
-#     ))
+#     )
