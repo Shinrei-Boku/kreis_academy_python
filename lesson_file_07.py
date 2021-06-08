@@ -1,5 +1,5 @@
 import os
-import pathlib
+#import pathlib
 import shutil
 
 print(os.path.exists('lesson_file_07.py'))
